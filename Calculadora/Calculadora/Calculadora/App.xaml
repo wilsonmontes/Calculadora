@@ -6,6 +6,7 @@
         <ResourceDictionary>
             <Style x:Key="Columna4" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="Orange"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
             </Style>
         </ResourceDictionary>
 

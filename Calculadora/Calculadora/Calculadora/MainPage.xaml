@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Calculadora"
              x:Class="Calculadora.MainPage">
 
-    <Grid>
+    <Grid ColumnSpacing="0" RowSpacing="0">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"></RowDefinition>
             <RowDefinition></RowDefinition>
@@ -20,9 +20,8 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <BoxView Grid.ColumnSpan="4">
-            0
-        </BoxView>
+        <Label Grid.ColumnSpan="4" HorizontalTextAlignment="End" VerticalTextAlignment="Center" FontSize="40" Text="0">
+        </Label>
         
         <Button Grid.Row="1" Grid.Column="0" Text="C"></Button>
         <Button Grid.Row="1" Grid.Column="1" Text="+/-"></Button>
